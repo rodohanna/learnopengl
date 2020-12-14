@@ -1,2 +1,2 @@
 main:
-	gcc -o run -Wall main.cpp glad.c -I include -L lib -lglfw3 -framework Cocoa -framework OpenGL -framework IOKit
+	g++ -o run -x c++ main.cpp -x c glad.c -Iinclude -lglfw
